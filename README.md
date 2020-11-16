@@ -11,4 +11,5 @@ The test data (12 slices, SAX stack RT cine images, ~130 Mb) is available here: 
 Chong Chen, the Ohio State University (Chong.Chen@osumc.edu)
 
 ### Reference:
-1. Automatic extraction and directionality determination of respiratory signal in real-time cardiac MRI, C.Chen, et al. (submitted to MRM)
+1. Automatic Extraction and Sign Determination of Respiratory Signal in Real-time Cardiac Magnetic Resonance imaging https://arxiv.org/pdf/2002.03216.pdf (ISBI 2020)
+2. Automatic image-based respiratory signal extraction in real-time CMR, C.Chen, et al. (submitted to MRM)
