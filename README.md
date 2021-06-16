@@ -12,4 +12,4 @@ Chong Chen, the Ohio State University (Chong.Chen@osumc.edu)
 
 ### Reference:
 1. Automatic Extraction and Sign Determination of Respiratory Signal in Real-time Cardiac Magnetic Resonance imaging https://arxiv.org/pdf/2002.03216.pdf (ISBI 2020)
-2. Automatic image-based respiratory signal extraction in real-time CMR, C.Chen, et al. (submitted to MRM)
+2. Ensuring Respiratory Phase Consistency to ImproveCardiac Function Quantification in Real-Time CMR, C.Chen, et al. (submitted to MRM)
