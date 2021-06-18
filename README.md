@@ -5,8 +5,7 @@ The respiraotry signal is extracted from RT cine images using PCA. Then, we use 
 
 The proposed method, where no ROI and tuning parameters are induced, is fully automatic and more robust than the previous sign determination algorithms.
 
-The test data (12 slices, SAX stack RT cine images, ~130 Mb) is available here: https://buckeyemailosu-my.sharepoint.com/:u:/r/personal/chen_7211_osu_edu/Documents/Share/Beat%20Selection%20Data/vol_1_rt_cine_stack.mat?csf=1&web=1&e=ejZ9bl
-
+The test data (12 slices, SAX stack RT cine images, ~130 Mb) is available here: https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/chen_7211_osu_edu/Eb3NgLT2PXlPn0jhHMit7PMBWyhLHv9CvI-ehGeytqi48g?e=pO6Qg8
 ### Contact: 
 Chong Chen, the Ohio State University (Chong.Chen@osumc.edu)
 
