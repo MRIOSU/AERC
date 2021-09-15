@@ -17,8 +17,8 @@ RO = size(M_image,1);PE = size(M_image,2);
 FR = size(M_image,3);SLC = size(M_image,4);
 Ts = dicom_info.RepetitionTime*1e-3; % temporal resolution
 time = Ts*(1:FR);
-M_image_tmp = reshape(permute(M_image,[3 1 2 4]),[FR, RO*PE*SLC]);
-M_image_filt = permute(reshape(fft_filter(M_image_tmp,Ts,0,0.8), [FR, RO, PE, SLC]),[2 3 1 4]);
+M_image_filt = permute(reshape(fft_filter(reshape(permute(M_image,[3 1 2 4]),[FR, RO*PE*SLC]),Ts,0,0.8),...
+           [FR, RO, PE, SLC]),[2 3 1 4]);
 
 %% extract respiratory signal and sign correction
 disp('Extract respiratory signal and sign correction ...')
